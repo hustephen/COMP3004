@@ -3,7 +3,7 @@ F17
 
 
 
-TEAM XXXX
+TEAM DOGE
 
 COMP 3004
 
@@ -15,6 +15,7 @@ Stephen HU 		100907070
 Zi WANG 		100889606
 
 Yuanming XIAO 	100879652
+
 
 
 Group meeting Time:
