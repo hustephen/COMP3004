@@ -16,6 +16,8 @@ Zi WANG 		100889606
 
 Yuanming XIAO 	100879652
 
+Jason MacDonald    100818884
+
 
 
 Group meeting Time:
