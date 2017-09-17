@@ -27,3 +27,10 @@ Each Saturday 4-6 PM at HP4155
 Github link:
 
 https://github.com/hustephen/COMP3004.git
+
+
+
+D1:
+
+
+https://docs.google.com/document/d/1ZeGu6JA54Ka0gpu0YN7zQ8Oilx7A9XZW3tLFrRgpQgo/edit?usp=sharing
