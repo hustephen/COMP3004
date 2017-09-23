@@ -12,9 +12,9 @@ Deliverable 0: Project Groups
 
 Stephen HU 		100907070
 
-Zi WANG 		100889606
+Zi WANG 		100889606  (Patrick)
 
-Yuanming XIAO 	100879652
+Yuanming XIAO 	100879652  (Hunter)
 
 Jason MacDonald    100818884
 
