@@ -1,1 +1,2 @@
-xfxf
+learning Android studio
+work on UI programing
