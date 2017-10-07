@@ -22,7 +22,7 @@ Jason MacDonald    100818884
 
 Group meeting Time:
 
-Each Saturday 4-6 PM at HP4155
+Each Saturday 3-5 PM at HP4155
 
 Github link:
 
