@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="mainBg">#0981CD</color>
+    <color name="mainBgPress">#0ec2ff</color>
+
+    <!--
+    <color name="mainBg">#0ec2ff</color>
+    <color name="mainBgPress">#0981CD</color>
+    -->
+
+    <color name="colorGreen">#ACD643</color>
+    <color name="colorGreenPress">#ffff65</color>
+
+
+
+</resources>
