@@ -1,0 +1,149 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- 标题栏 -->
+    <LinearLayout
+        android:id="@+id/title_ll"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:background="@color/mainBg">
+        <TextView
+            android:id="@+id/left_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/white"
+            android:paddingLeft="10dp"
+            android:gravity="center"
+            android:drawableLeft="@drawable/back"
+            android:drawablePadding="5dp"
+            android:textSize="@dimen/text_small"
+            android:text="Exit"/>
+
+        <TextView
+            android:id="@+id/title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:textSize="@dimen/text_common"
+            android:text="Let`s eat"/>
+
+        <TextView
+            android:id="@+id/right_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/white"
+            android:paddingRight="10dp"
+            android:gravity="center"
+            android:textSize="@dimen/text_small"
+            android:text="操作"
+            android:visibility="invisible"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/content_ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/padding_big"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/padding_common"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Distance："/>
+            <Spinner
+                android:id="@+id/distance_sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/distance">
+            </Spinner>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/padding_common"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cuisine："/>
+            <Spinner
+                android:id="@+id/cuisine_sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/cuisine">
+            </Spinner>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/padding_common"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price："/>
+            <Spinner
+                android:id="@+id/price_sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/price">
+            </Spinner>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/padding_common"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grade："/>
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="3.0"
+                android:stepSize="1.0"
+                android:id="@+id/ratingBar"
+                />
+
+            <!--
+            <Spinner
+                android:id="@+id/grade_sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </Spinner>
+            -->
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/register_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_common"
+            android:layout_marginTop="20dp"
+            android:text="Recommended for you"
+            android:textSize="@dimen/text_common"
+            android:textColor="@android:color/white"
+            android:background="@drawable/selector_button"/>
+
+    </LinearLayout>
+
+</LinearLayout>
