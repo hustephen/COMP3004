@@ -36,6 +36,9 @@ D1:
 https://docs.google.com/document/d/1ZeGu6JA54Ka0gpu0YN7zQ8Oilx7A9XZW3tLFrRgpQgo/edit?usp=sharing
 
 
+D2:
+
+https://docs.google.com/document/d/1oj9W-bA4so_pcnqQ-iJAq8JRAre5fCQtiTG4D5WHapY/edit
 
 Discord:
 https://discord.gg/nne5J7B
