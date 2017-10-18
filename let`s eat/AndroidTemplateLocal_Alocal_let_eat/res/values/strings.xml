@@ -35,10 +35,9 @@
 
 
     <string-array name="distance">
-        <item>100m ~ 500m</item>
-        <item>500m ~ 1000m</item>
-        <item>1000m ~ 5000m</item>
-        <item>More than 5000m</item>
+        <item>less than 1000m</item>
+        <item>1000m ~ 3000m</item>
+        <item>More than 3000m</item>
     </string-array>
 
     <string-array name="cuisine">
@@ -50,11 +49,11 @@
 
 
     <string-array name="price">
-        <item>$500 the following</item>
-        <item>$500 ~ $1000</item>
-        <item>$100 ~ $3000</item>
-        <item>$3000 ~ $5000</item>
-        <item>More than $5000</item>
+        <item>less than 15$</item>
+        <item>$15~30</item>
+        <item>$30-50</item>
+        <item>$50-100</item>
+        <item>More than $100</item>
     </string-array>
 
 </resources>
