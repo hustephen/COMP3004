@@ -55,13 +55,13 @@ public class StoreActivity extends BaseActivity {
         setContentView(R.layout.activity_store);
         ButterKnife.bind(this);
 
-        storeList.add(new Store("Yellow Crane Tower",R.drawable.s_one,"Shop no.2, no. 358 exhibition road","Chinese food","800",4,24.46,118.11));
+        storeList.add(new Store("Thai Coconut",R.drawable.s_one,"1390 Prince of Wales Dr","Thailand food","25",3,45.369306, -75.703409));
 
-        storeList.add(new Store("Beach restaurant",R.drawable.s_two,"2-3, 333 huangpi south road, Shanghai","Chinese food","1500",5,31.22,121.48));
+        storeList.add(new Store("Ben Ben Restaurant",R.drawable.s_two,"697 Somerset St W","Chinese food","12",4,45.411131, -75.706966));
 
-        storeList.add(new Store("MCD",R.drawable.s_three,"The United States Huntington Beach 16701 Beach Blvd","Hamburg","$500 the following",2,46.6795944656,-107.4902343750));
+        storeList.add(new Store("The Hintonburg Public House",R.drawable.s_three,"1020 Wellington St W, Ottawa, ON K1Y 2X9","Hamburg","18",3,45.404575, -75.723597));
 
-        storeList.add(new Store("KFC",R.drawable.s_four,"Los Angeles 3330 S Figueroa St","Hamburg","$500 the following",3,42.3585439175,-103.8867187500));
+        storeList.add(new Store("Open Rice",R.drawable.s_four,"1755 St Laurent Blvd, Ottawa, ON K1G 3V4","Chinese food","12",4,45.4049962, -75.6255558));
 
         show();
 
