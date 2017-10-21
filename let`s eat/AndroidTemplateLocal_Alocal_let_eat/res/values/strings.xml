@@ -7,37 +7,14 @@
     <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_login">LoginActivity</string>
     <string name="back_str">Back</string>
-    <string name="username_str">UserName:</string>
-    <string name="password_str">Password:</string>
-    <string name="remind_pass_str">Remember the password:</string>
-    <string name="login_in_str">Log In</string>
-    <string name="no_username_to_register">No account? Sign up for a</string>
-    <string name="o_pass_str">Original password：</string>
-    <string name="new_pass_str">New password：</string>
-    <string name="re_pass_str">Confirm Password：</string>
-    <string name="con_update_str">Confirm the change</string>
-    <string name="bitian_str">Required</string>
-    <string name="quick_register_str">Quick Register</string>
-    <string name="affirm_str">Affirm</string>
-    <string name="cancel_str">Cancel</string>
 
-
-    <string name="update_success">Modify the success</string>
-    <string name="username_isexit_str">The user name already exists. Please enter again</string>
-    <string name="register_success_str">Registration is successful, please login</string>
-    <string name="inpur_username_password_str">Please fill in the user name or password</string>
-    <string name="password_diff_str">Two password input is not the same</string>
-    <string name="login_success_str">Login successful</string>
-    <string name="username_or_password_error">The user name or password error</string>
-    <string name="input_wanzheng_str">Please fill in the complete will modify the information</string>
-    <string name="o_passwoed_error">The original password mistake</string>
-    <string name="update_passwoed_success">Password is changed</string>
 
 
     <string-array name="distance">
-        <item>less than 1000m</item>
-        <item>1000m ~ 3000m</item>
-        <item>More than 3000m</item>
+        <item>Less than 500</item>
+        <item>500m ~ 1000m</item>
+        <item>1000m ~ 5000m</item>
+        <item>More than 5000m</item>
     </string-array>
 
     <string-array name="cuisine">
@@ -49,11 +26,11 @@
 
 
     <string-array name="price">
-        <item>less than 15$</item>
-        <item>$15~30</item>
-        <item>$30-50</item>
-        <item>$50-100</item>
-        <item>More than $100</item>
+        <item>$10 the following</item>
+        <item>$10 ~ $20</item>
+        <item>$20 ~ $40</item>
+        <item>$40 ~ $80</item>
+        <item>More than $80</item>
     </string-array>
 
 </resources>

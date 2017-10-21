@@ -1,9 +1,12 @@
 package com.example.androidtemplate.mo;
 
+import android.os.Parcel;
+import android.os.Parcelable;
+
 /**
  *
  */
-public class Store {
+public class Store implements Parcelable {
 
     private String name;
     private int img;
@@ -89,4 +92,59 @@ public class Store {
         this.lat = lat;
         this.lng = lng;
     }
+
+    @Override
+    public String toString() {
+        return "Store{" +
+                "name='" + name + '\'' +
+                ", img=" + img +
+                ", address='" + address + '\'' +
+                ", cuisine='" + cuisine + '\'' +
+                ", price='" + price + '\'' +
+                ", rating=" + rating +
+                ", lat=" + lat +
+                ", lng=" + lng +
+                '}';
+    }
+
+
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(Parcel dest, int flags) {
+        dest.writeString(this.name);
+        dest.writeInt(this.img);
+        dest.writeString(this.address);
+        dest.writeString(this.cuisine);
+        dest.writeString(this.price);
+        dest.writeInt(this.rating);
+        dest.writeDouble(this.lat);
+        dest.writeDouble(this.lng);
+    }
+
+    protected Store(Parcel in) {
+        this.name = in.readString();
+        this.img = in.readInt();
+        this.address = in.readString();
+        this.cuisine = in.readString();
+        this.price = in.readString();
+        this.rating = in.readInt();
+        this.lat = in.readDouble();
+        this.lng = in.readDouble();
+    }
+
+    public static final Parcelable.Creator<Store> CREATOR = new Parcelable.Creator<Store>() {
+        @Override
+        public Store createFromParcel(Parcel source) {
+            return new Store(source);
+        }
+
+        @Override
+        public Store[] newArray(int size) {
+            return new Store[size];
+        }
+    };
 }

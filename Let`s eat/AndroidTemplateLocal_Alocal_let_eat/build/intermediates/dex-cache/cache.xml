@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\zi wang\Desktop\Let`s eat\AndroidTemplateLocal_Alocal_let_eat\libs\butterknife-7.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="C:\Users\zi wang\Desktop\Let`s eat\AndroidTemplateLocal_Alocal_let_eat\build\intermediates\transforms\dex\debug\folders\1000\2\butterknife-7.0.1_3beb82ffa7159b4ac61bd7e7a7a51634d50d921c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\zi wang\Desktop\Let`s eat\AndroidTemplateLocal_Alocal_let_eat\libs\universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="C:\Users\zi wang\Desktop\Let`s eat\AndroidTemplateLocal_Alocal_let_eat\build\intermediates\transforms\dex\debug\folders\1000\2\universal-image-loader-1.9.3_50a220ba1737a94f6817863b0a1b8948e81ca756\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\zi wang\Desktop\Let`s eat\AndroidTemplateLocal_Alocal_let_eat\libs\gson-2.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53bfcd3c8e310d1493b2691484525ed90b04e236">
+        <dex dex="C:\Users\zi wang\Desktop\Let`s eat\AndroidTemplateLocal_Alocal_let_eat\build\intermediates\transforms\dex\debug\folders\1000\2\gson-2.2.2_5d1e81cf9c1d17d077a788b24aa24f5107834e69\classes.dex" />
+    </item>
+
+</items>

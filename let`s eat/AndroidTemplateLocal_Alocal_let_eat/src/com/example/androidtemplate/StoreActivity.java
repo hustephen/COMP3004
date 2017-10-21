@@ -11,7 +11,10 @@ import android.widget.RatingBar;
 import android.widget.TextView;
 
 import com.example.androidtemplate.common.BaseActivity;
+import com.example.androidtemplate.common.D;
+import com.example.androidtemplate.common.T;
 import com.example.androidtemplate.mo.Store;
+import com.google.android.gms.maps.model.LatLng;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -46,7 +49,7 @@ public class StoreActivity extends BaseActivity {
     @Bind(R.id.content_ll)
     LinearLayout contentLl;
 
-    List<Store> storeList = new ArrayList<Store>();
+    List<Store> storeList = new ArrayList<>();
 
 
 
@@ -54,44 +57,52 @@ public class StoreActivity extends BaseActivity {
     protected void initData() {
         setContentView(R.layout.activity_store);
         ButterKnife.bind(this);
-
-        storeList.add(new Store("Thai Coconut",R.drawable.s_one,"1390 Prince of Wales Dr","Thailand food","25",3,45.369306, -75.703409));
-
-        storeList.add(new Store("Ben Ben Restaurant",R.drawable.s_two,"697 Somerset St W","Chinese food","12",4,45.411131, -75.706966));
-
-        storeList.add(new Store("The Hintonburg Public House",R.drawable.s_three,"1020 Wellington St W, Ottawa, ON K1Y 2X9","Hamburg","18",3,45.404575, -75.723597));
-
-        storeList.add(new Store("Open Rice",R.drawable.s_four,"1755 St Laurent Blvd, Ottawa, ON K1G 3V4","Chinese food","12",4,45.4049962, -75.6255558));
+        storeList = getIntent().getParcelableArrayListExtra("store");
 
         show();
 
     }
 
-    private int position = -1;
-    Store store;
+    int position = 0;
+    private Store store;
     private void show(){
-
-        while (true){
-            int max=3;
-            int min=0;
-            Random random = new Random();
-            int s = random.nextInt(max)%(max-min+1) + min;
-            if(s!=position){
-                position = s;
-                break;
+        if(storeList.size()>1){
+            while (true){
+                int max=storeList.size()-1;
+                int min=0;
+                Random random = new Random();
+                int s = random.nextInt(max)%(max-min+1) + min;
+                if(s!=position){
+                    position = s;
+                    break;
+                }
             }
+
+            store = storeList.get(position);
+
+            imgIv.setImageDrawable(getResources().getDrawable(store.getImg()));
+            addressEt.setText(store.getAddress());
+            cuisineEt.setText(store.getCuisine());
+            priceEt.setText(store.getPrice());
+
+            ratingBar.setRating(store.getRating());
+            ratingBar.setIsIndicator(false);
+
+        }else{
+            T.showToast(this_,"There was only one");
+
+            store = storeList.get(0);
+
+            imgIv.setImageDrawable(getResources().getDrawable(store.getImg()));
+            addressEt.setText(store.getAddress());
+            cuisineEt.setText(store.getCuisine());
+            priceEt.setText(store.getPrice());
+
+            ratingBar.setRating(store.getRating());
+            ratingBar.setIsIndicator(false);
         }
-
-        store = storeList.get(position);
-
-        imgIv.setImageDrawable(getResources().getDrawable(store.getImg()));
-        addressEt.setText(store.getAddress());
-        cuisineEt.setText(store.getCuisine());
-        priceEt.setText(store.getPrice());
-
-        ratingBar.setRating(store.getRating());
-        ratingBar.setIsIndicator(false);
     }
+
 
     @Override
     protected void recycle() {
