@@ -40,5 +40,12 @@ D2:
 
 https://docs.google.com/document/d/1oj9W-bA4so_pcnqQ-iJAq8JRAre5fCQtiTG4D5WHapY/edit
 
+
+D3:
+
+https://docs.google.com/document/d/1FyypszyIiWmO7lDSECIihNcS3YZuK__rAIWE4Vcd8Y4/edit
+
+
+
 Discord:
 https://discord.gg/nne5J7B
