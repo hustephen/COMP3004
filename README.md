@@ -46,6 +46,10 @@ D3:
 https://docs.google.com/document/d/1FyypszyIiWmO7lDSECIihNcS3YZuK__rAIWE4Vcd8Y4/edit
 
 
+Oral Exam PPT:
+(Stephen Draft)
+https://docs.google.com/presentation/d/1tTdWYQOEehRNw5HbcNBIM7hA_t0mk6hiSRdYqqGkA0Y/edit?usp=sharing
+
 
 Discord:
 https://discord.gg/nne5J7B
