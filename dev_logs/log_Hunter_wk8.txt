@@ -1,1 +1,2 @@
-learning facade design pattern
+improve and simplify code 
+doing D3
