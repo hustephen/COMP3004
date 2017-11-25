@@ -1,0 +1,4 @@
+Goals:
+1. Desgin patterns for D3
+2. Arch for D3
+3. Prepare oral exam
