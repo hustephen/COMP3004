@@ -1,2 +1,4 @@
 Coding the project, 
-Also doing the documentation
+Starting working on D2,
+doing the documentation and graphs
+
