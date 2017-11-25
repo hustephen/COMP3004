@@ -1,0 +1,2 @@
+Fixing bugs, 
+Minor UI modify for better UX
