@@ -1,1 +1,3 @@
-
+Goals:
+1.Make our app works again!
+2.Trying to help team mates finish their parts.
