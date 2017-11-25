@@ -1,0 +1,5 @@
+Goals:
+1.Working on D4 demo
+2.Doc for D4
+3.Video for D4
+4.Prepare presentation for d4
