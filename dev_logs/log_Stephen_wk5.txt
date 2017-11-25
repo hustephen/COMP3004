@@ -1,4 +1,5 @@
 Coding the project, 
+Adding the distance/location filter
 Starting working on D2,
 doing the documentation and graphs
 
