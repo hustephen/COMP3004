@@ -1,1 +1,2 @@
 Starting constrcut basic structure of the project.
+Desgin a OO program.
