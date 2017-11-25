@@ -1,0 +1,3 @@
+Goals:
+1.RAM Management 
+2.Create a Lite-Weight App
