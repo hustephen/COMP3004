@@ -1,2 +1,2 @@
-Added the filter logic about location/distance.
+Added the basic filter logic (without location/distance).
 write code for D2. Should be finish soon
