@@ -1,0 +1,3 @@
+Finshing PHP script for the filter logic, 
+Working on D3
+Drawing bunch of graphs
