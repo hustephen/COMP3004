@@ -1,0 +1,3 @@
+Goals:
+1.Drawings documentation for d3.
+2.using a working php.
