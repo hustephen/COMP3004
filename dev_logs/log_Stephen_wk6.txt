@@ -1,1 +1,3 @@
-Learning PHP script, trying to move the filter logic into PHP servive.
+Rewrite the filter logic, 
+trying to move the filter logic into PHP servive.
+Learning PHP script, 
