@@ -1,1 +1,2 @@
-
+Moved local server implementation to webserver (hosted by goDaddy.com)
+Ensured everything worked after move
