@@ -1,1 +1,1 @@
-
+Polishing our application, while familiarizing ourselves with the design patterns and styles we implemented
