@@ -1,1 +1,1 @@
-
+Worked on our presentation for D3, by defining all design patterns and styles we implemented in our design
