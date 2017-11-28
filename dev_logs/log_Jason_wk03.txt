@@ -1,1 +1,1 @@
-Created the database, using wampserver
+Created local server (using WAMPServer) to mimic implementation of public webserver
