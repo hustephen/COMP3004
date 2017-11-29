@@ -73,19 +73,8 @@ public class MainNewActivity extends BaseActivity {
         setContentView(R.layout.activity_main_new);
         ButterKnife.bind(this);
         initGps();
-
-
-        storeList.add(new Store("Thai Coconut",R.drawable.s_one,"1390 Prince of Wales Dr","Thailand food","25",3,45.369306, -75.703409));
-
-        storeList.add(new Store("Ben Ben Restaurant",R.drawable.s_two,"697 Somerset St W","Chinese food","12",4,45.411131, -75.706966));
-
-        storeList.add(new Store("The Hintonburg Public House",R.drawable.s_three,"1020 Wellington St W, Ottawa, ON K1Y 2X9","Hamburg","18",3,45.404575, -75.723597));
-
-        storeList.add(new Store("Open Rice",R.drawable.s_four,"1755 St Laurent Blvd, Ottawa, ON K1G 3V4","Chinese food","12",4,45.4049962, -75.6255558));
-
-
-
-
+        
+        //storeList.add()
     }
 
     @Override
